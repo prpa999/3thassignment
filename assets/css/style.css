@@ -1,0 +1,256 @@
+* {
+    font-family: 'Source Serif Pro';
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+#myJumbotron{
+    margin-bottom: 0!important;
+}
+
+.makeright{
+    margin-right: 10px;
+}
+
+.alert-infoc {
+    color: #202424;
+    background-color: #edf0f1;
+    border-color: #bee5eb;
+	
+}
+
+#buildstores{
+	font-family: "Gill Sans", sans-serif;
+}
+
+.alertc {
+    position: relative;
+    padding: .75rem 1.25rem;
+    border: 1px solid transparent;
+    border-radius: .25rem;
+    margin-top: 15px;
+	
+}
+    .jumbotron {
+    background-image: url(../images/backgroundImage.jpg);
+    color: #F8F5F4;
+    height: 95vh;
+    border-radius: 0px !important;
+    background-size: cover;
+    background-position: center;
+}
+
+.jumbotron h1{
+    line-height: 1.6;
+    margin: 40px 0;
+    font-size: 70px;
+}
+.intro {
+    padding-top: 220px !important;
+}
+
+.navbar {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.navbar-nav a {
+    margin: 0 16px;
+    margin-top: 6px;
+    color: #F8F5F4 !important;
+}
+.navbar-toggler {
+    border: none !important;
+    outline: none !important;
+    color: #F8F5F4 !important;
+}
+.navbar-toggler .fa {
+    color:  #F8F5F4;
+    font-size: 25px;
+}
+.nav-link:hover {
+    border-bottom: 1px solid #F8F5F4;
+    margin-bottom: -1px;
+    font-weight: 600;
+}
+#header .btn {
+    padding: 0px 0px;
+    font-size: 17px;
+    border: 1px solid #F8F5F4;
+    margin-top: 10px !important;
+}
+
+.woodenBackground {
+    background-image: url("../images/greyWoodenBackground2.jpg");
+}
+
+.cakeBackground {
+    background-image: url("../images/cakeBackground.png");
+}
+
+.marginTop {
+    margin-top: 30px;
+}
+
+.marginBot {
+    margin-bottom: 30px;
+}
+
+.lightBackground {
+    background-color: rgb(49, 49, 49);
+}
+
+.contentHeading {
+    font-size: 36px;
+    color: #F8F5F4;
+    line-height: 40px;
+    letter-spacing: 1px;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+.paragraphFont {
+    font-size: 16px;
+    color: #F8F5F4;
+    line-height: 24px;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+.cardHeaderFont {
+    font-size: 25px;
+    color: rgb(49, 49, 49);;
+    line-height: 24px;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+.cardTextFont {
+    font-size: 15px;
+    color: rgb(49, 49, 49);;
+    line-height: 24px;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+.whiteColor {
+    background-color: #F8F5F4;
+}
+
+.followMargin {
+    color: #F8F5F4 !important;
+    font-size: 17px !important;
+    margin-top: 46px;
+    letter-spacing: 2px;
+    line-height: 22px;
+    font-family: 'Noto Sans', sans-serif;
+    color: rgb(49, 49, 49);
+}
+
+.centerText {
+    text-align: center !important;
+}
+
+#followMe .btn {
+    color:  rgb(49, 49, 49); /* !important */
+    background: #F8F5F4; /* !important */
+    box-shadow: 0 6px 16px -6px #00000069;
+    border-radius: 29%; /* !important */
+    height: 45px;
+    margin: 10px;
+    width: 45px;
+    margin-bottom: 30px;
+    display: inline-block;
+}
+
+#followMe .btn i {
+    font-size: 19px;
+    line-height: 30px;
+    transition: 0.2s linear;
+}
+
+#followMe .btn:hover i {
+    color: rgb(49, 49, 49);
+    transform: scale(1.3); /* !important;*/
+}
+
+#submitButton .btn {
+    color: rgb(49, 49, 49) !important;
+    background-color: #F8F5F4 !important;
+}
+
+#submitButton .btn:hover {
+    background-color: rgb(49, 49, 49) !important;
+    color: #F8F5F4 !important;
+}
+
+.formFont {
+    font-family: 'Noto Sans', sans-serif;
+}
+
+.whatIsOrder {
+    color: #F8F5F4 !important;
+    font-size: 30px;
+}
+
+.myNameBackground {
+    background-color: rgb(24,24,24);
+}
+
+.myNameMargin {
+    color: black !important;
+    font-size: 17px !important;
+    margin-top: 25px;
+    letter-spacing: 2px;
+}
+
+.myNameCollor {
+    color: #404040 !important;
+}
+
+.formBackground {
+    background-color: #AB998D;
+}
+
+.formHeaderMarginTop {
+    margin-top: 10px;
+}
+
+.formMargin {
+    margin-top: 2000px;
+    margin-bottom: 2000px;
+}
+
+.formMarginTop {
+    margin-top: 26px;
+}
+
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+  }
+
+  .buttonCenter {
+      flex-direction: column !important;
+      justify-content: center !important;
+      align-items: center !important;
+  }
+
+@media only screen and (max-width: 1000px) { /* PROMIJENI */
+    .navbar-nav a{
+        margin: 0px 6px 0 18px;
+        margin-top: 25px;
+    }
+    .nav-link:hover{
+        border-bottom: none;
+    }
+    .intro{
+        padding-top: 200px !important;
+    }
+}
+@media only screen and (max-width: 600px) { /* PROMIJENI */
+    .jumbotron h1 {
+        font-size: 50px;
+        line-height: 1.7;
+    }
+    .intro{
+        padding-top: 100px;
+    }
+}
